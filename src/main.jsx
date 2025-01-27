@@ -1,12 +1,12 @@
 //import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
-import CreateTrip from "./pages/createTrip";
 import Header from "./components/Header";
 import { Toaster } from "@/components/ui/toaster"
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import ViewTrip from "./pages/view-trip/[tripId]";
 import MyTrip from "./pages/myTrips/MyTrip";
+import CreateTrip from "./pages/CreateTrip";
 
 
 const root = document.getElementById("root");
