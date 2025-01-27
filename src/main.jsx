@@ -7,6 +7,7 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 import ViewTrip from "./pages/view-trip/[tripId]";
 import MyTrip from "./pages/myTrips/MyTrip";
 import CreateTrip from "./pages/CreateTrip";
+import App from "./App";
 
 
 const root = document.getElementById("root");
