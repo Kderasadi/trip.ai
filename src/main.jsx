@@ -1,7 +1,6 @@
 //import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
-import App from "./app";
 import CreateTrip from "./pages/createTrip";
 import Header from "./components/Header";
 import { Toaster } from "@/components/ui/toaster"
